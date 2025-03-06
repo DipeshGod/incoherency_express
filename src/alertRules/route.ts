@@ -21,6 +21,8 @@ function getSchemaForVersion(version: SupportedVersion) {
       return AlertRulesSchema1;
     case "7.7.0":
       return AlertRulesSchema2;
+    case "7.8.0":
+      return AlertRulesSchema2;
     default:
       throw new Error("Unsupported version");
   }
