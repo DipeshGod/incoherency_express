@@ -1,5 +1,5 @@
 import express from "express";
-import { alertRulesRouter } from "./alertRules/route";
+import { alertRulesRouter } from "./routes/alertRules/route";
 
 const app = express();
 const PORT = process.env.PORT || 3000;

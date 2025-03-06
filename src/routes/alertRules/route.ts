@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response, Router } from "express";
 import { Value } from "@sinclair/typebox/value";
-import { SupportedVersion } from "../apiMapping";
+import { SupportedVersion } from "../../apiMapping";
 import { AlertRulesSchema1, AlertRulesSchema2 } from "./schema";
 
 const router = Router();
